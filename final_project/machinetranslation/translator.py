@@ -17,7 +17,7 @@ language_translator = LanguageTranslatorV3(
 
 language_translator.set_service_url(url)
 
-def english_to_french(english_text):
+def englishToFrench(english_text):
     #write the code here
     try:
         translation=language_translator.translate(
@@ -31,7 +31,7 @@ def english_to_french(english_text):
     french_text=french_text['translation']
     return french_text
 
-def french_to_english(french_text):
+def frenchToEnglish(french_text):
     #write the code here
     try:
         translation=language_translator.translate(
